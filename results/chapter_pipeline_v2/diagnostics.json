@@ -1,0 +1,108 @@
+{
+  "Baseline Latent DDPM": {
+    "n": 256,
+    "empty_rate": 0.0546875,
+    "tiny_area_rate_lt_0_02": 0.828125,
+    "area_mean": 0.011092901229858398,
+    "area_min": 0.0,
+    "area_max": 0.03857421875,
+    "area_error_mean": 0.1494637393951416,
+    "beta0_mean": 2.375,
+    "valid_area_rate_0_03_to_0_45": 0.02734375,
+    "border_contact_mean": 0.025609372776066584,
+    "high_border_contact_rate_gt_0_08": 0.125,
+    "compactness_mean": 0.512099380896147
+  },
+  "Curvature Only": {
+    "n": 256,
+    "empty_rate": 0.0,
+    "tiny_area_rate_lt_0_02": 0.0,
+    "area_mean": 0.09144067764282227,
+    "area_min": 0.0333251953125,
+    "area_max": 0.15386962890625,
+    "area_error_mean": 0.06911596298217773,
+    "beta0_mean": 8.90234375,
+    "valid_area_rate_0_03_to_0_45": 1.0,
+    "border_contact_mean": 0.00725889305476509,
+    "high_border_contact_rate_gt_0_08": 0.0,
+    "compactness_mean": 0.1444689522079909
+  },
+  "Topology Only": {
+    "n": 256,
+    "empty_rate": 0.0,
+    "tiny_area_rate_lt_0_02": 0.0,
+    "area_mean": 0.15062928199768066,
+    "area_min": 0.04217529296875,
+    "area_max": 0.33123779296875,
+    "area_error_mean": 0.08310114860534668,
+    "beta0_mean": 1.0,
+    "valid_area_rate_0_03_to_0_45": 1.0,
+    "border_contact_mean": 0.001211387226024725,
+    "high_border_contact_rate_gt_0_08": 0.0,
+    "compactness_mean": 0.03793418652550645
+  },
+  "Full CCLD": {
+    "n": 256,
+    "empty_rate": 0.0,
+    "tiny_area_rate_lt_0_02": 0.0,
+    "area_mean": 0.1520853042602539,
+    "area_min": 0.04217529296875,
+    "area_max": 0.325439453125,
+    "area_error_mean": 0.08261823654174805,
+    "beta0_mean": 1.0,
+    "valid_area_rate_0_03_to_0_45": 1.0,
+    "border_contact_mean": 0.0006757526042309424,
+    "high_border_contact_rate_gt_0_08": 0.0,
+    "compactness_mean": 0.033157894795478704
+  },
+  "summary_image_metrics": {
+    "Baseline Latent DDPM": {
+      "nearest_real_l1": 0.22742954154809317,
+      "nearest_real_ssim": 0.8180172308286031,
+      "paired_batch_l1": 0.3740861713886261,
+      "paired_batch_ssim": 0.5860233306884766,
+      "lpips_to_real_batch": 0.6546449889739354,
+      "mask_contrast": 0.2946334183216095,
+      "real_mask_contrast": 0.7131683230400085,
+      "mask_contrast_abs_error": 0.41853490471839905,
+      "fid": 306.5556640625,
+      "fid_error": null
+    },
+    "Curvature Only": {
+      "nearest_real_l1": 0.22765154719352723,
+      "nearest_real_ssim": 0.8164587537447612,
+      "paired_batch_l1": 0.3831014037132263,
+      "paired_batch_ssim": 0.5680804252624512,
+      "lpips_to_real_batch": 0.6601161289215088,
+      "mask_contrast": 0.25956082344055176,
+      "real_mask_contrast": 0.7131683230400085,
+      "mask_contrast_abs_error": 0.4536074995994568,
+      "fid": 298.92596435546875,
+      "fid_error": null
+    },
+    "Topology Only": {
+      "nearest_real_l1": 0.2223666540781657,
+      "nearest_real_ssim": 0.8230480984846751,
+      "paired_batch_l1": 0.3723674714565277,
+      "paired_batch_ssim": 0.5801177024841309,
+      "lpips_to_real_batch": 0.6543115790685018,
+      "mask_contrast": 0.38674432039260864,
+      "real_mask_contrast": 0.7131683230400085,
+      "mask_contrast_abs_error": 0.3264240026473999,
+      "fid": 302.3173522949219,
+      "fid_error": null
+    },
+    "Full CCLD": {
+      "nearest_real_l1": 0.22447635968526206,
+      "nearest_real_ssim": 0.81928253531456,
+      "paired_batch_l1": 0.3758831024169922,
+      "paired_batch_ssim": 0.5777877569198608,
+      "lpips_to_real_batch": 0.6516029344002405,
+      "mask_contrast": 0.3522456884384155,
+      "real_mask_contrast": 0.7131683230400085,
+      "mask_contrast_abs_error": 0.360922634601593,
+      "fid": 309.17803955078125,
+      "fid_error": null
+    }
+  }
+}

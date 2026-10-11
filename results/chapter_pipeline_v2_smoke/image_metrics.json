@@ -1,0 +1,26 @@
+{
+  "Baseline Latent DDPM": {
+    "nearest_real_l1": 0.46515507996082306,
+    "nearest_real_ssim": 0.3313244432210922,
+    "paired_batch_l1": 0.4755305349826813,
+    "paired_batch_ssim": 0.3340074419975281,
+    "lpips_to_real_batch": 0.5805218517780304,
+    "mask_contrast": 0.23727631568908691,
+    "real_mask_contrast": 0.8503237366676331,
+    "mask_contrast_abs_error": 0.6130474209785461,
+    "fid": 523.3925170898438,
+    "fid_error": null
+  },
+  "Full CCLD": {
+    "nearest_real_l1": 0.5617555677890778,
+    "nearest_real_ssim": 0.16303695691749454,
+    "paired_batch_l1": 0.5698846578598022,
+    "paired_batch_ssim": 0.13926666975021362,
+    "lpips_to_real_batch": 0.601414144039154,
+    "mask_contrast": 0.33014118671417236,
+    "real_mask_contrast": 0.8503237366676331,
+    "mask_contrast_abs_error": 0.5201825499534607,
+    "fid": 442.93353271484375,
+    "fid_error": null
+  }
+}

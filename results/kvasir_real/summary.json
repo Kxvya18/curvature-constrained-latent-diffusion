@@ -1,0 +1,202 @@
+{
+  "topology": {
+    "Baseline Latent DDPM": {
+      "betti0_error": {
+        "mean": 6.703125,
+        "std": 2.316244856308374
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 6.703125,
+        "std": 2.316244856308374
+      },
+      "area_error": {
+        "mean": 0.11167415618896483,
+        "std": 0.020553688318646325
+      },
+      "curvature_l1": {
+        "mean": 0.5030885441351932,
+        "std": 0.12217475725570824
+      },
+      "boundary_roughness": {
+        "mean": 12.297926087668941,
+        "std": 1.9859682445152071
+      },
+      "pd0_wasserstein": {
+        "mean": 4.739825142641077,
+        "std": 1.637832444784112
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Curvature Only": {
+      "betti0_error": {
+        "mean": 3.734375,
+        "std": 1.7787125567035837
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 3.734375,
+        "std": 1.7787125567035837
+      },
+      "area_error": {
+        "mean": 0.14411815643310547,
+        "std": 0.009754073073783544
+      },
+      "curvature_l1": {
+        "mean": 0.7558285626921031,
+        "std": 0.3179988135263708
+      },
+      "boundary_roughness": {
+        "mean": 9.418423510189921,
+        "std": 2.202387021548468
+      },
+      "pd0_wasserstein": {
+        "mean": 2.6295533425374735,
+        "std": 1.277624443547477
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.484375,
+        "std": 0.08699631816921909
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Full CCLD": {
+      "betti0_error": {
+        "mean": 0.078125,
+        "std": 0.26836818808308854
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 0.078125,
+        "std": 0.26836818808308854
+      },
+      "area_error": {
+        "mean": 0.1471451187133789,
+        "std": 0.006680520579705969
+      },
+      "curvature_l1": {
+        "mean": 0.44255335061755585,
+        "std": 0.4802428705942329
+      },
+      "boundary_roughness": {
+        "mean": 4.25392237671389,
+        "std": 1.2583815315383267
+      },
+      "pd0_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Topology Only": {
+      "betti0_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "area_error": {
+        "mean": 0.13723739624023437,
+        "std": 0.010024297882415784
+      },
+      "curvature_l1": {
+        "mean": 0.20990887993708368,
+        "std": 0.06948169910704804
+      },
+      "boundary_roughness": {
+        "mean": 4.732885166894684,
+        "std": 0.4327921351337276
+      },
+      "pd0_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    }
+  },
+  "image": {
+    "Baseline Latent DDPM": {
+      "l1_to_real_batch": 0.31566867232322693,
+      "ssim_to_real_batch": 0.647159993648529,
+      "lpips_to_real_batch": 0.5872821658849716,
+      "fid": 45.79595947265625,
+      "fid_error": null
+    },
+    "Curvature Only": {
+      "l1_to_real_batch": 0.3132433593273163,
+      "ssim_to_real_batch": 0.6496543884277344,
+      "lpips_to_real_batch": 0.5828865417279303,
+      "fid": 64.92417907714844,
+      "fid_error": null
+    },
+    "Topology Only": {
+      "l1_to_real_batch": 0.3137732744216919,
+      "ssim_to_real_batch": 0.6505768895149231,
+      "lpips_to_real_batch": 0.5895168399438262,
+      "fid": 129.5966339111328,
+      "fid_error": null
+    },
+    "Full CCLD": {
+      "l1_to_real_batch": 0.31333571672439575,
+      "ssim_to_real_batch": 0.6494274139404297,
+      "lpips_to_real_batch": 0.589468440040946,
+      "fid": 161.67904663085938,
+      "fid_error": null
+    }
+  }
+}

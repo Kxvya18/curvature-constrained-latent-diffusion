@@ -1,0 +1,130 @@
+{
+  "topology": {
+    "Baseline Latent DDPM": {
+      "betti0_error": {
+        "mean": 4.0,
+        "std": 0.0
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 4.0,
+        "std": 0.0
+      },
+      "area_error": {
+        "mean": 0.0545654296875,
+        "std": 0.03951171875000001
+      },
+      "curvature_l1": {
+        "mean": 0.3829709887082383,
+        "std": 0.2072258813409129
+      },
+      "boundary_roughness": {
+        "mean": 10.317715311591606,
+        "std": 0.04519115852934252
+      },
+      "pd0_wasserstein": {
+        "mean": 2.8284271247461903,
+        "std": 0.0
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "border_contact": {
+        "mean": 0.022834063067323683,
+        "std": 0.00798257791880883
+      },
+      "compactness": {
+        "mean": 0.34393472867300623,
+        "std": 0.17846503605594213
+      }
+    },
+    "Full CCLD": {
+      "betti0_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "betti1_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "euler_error": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "area_error": {
+        "mean": 0.10595703125,
+        "std": 0.03434082031249999
+      },
+      "curvature_l1": {
+        "mean": 0.1241071630205,
+        "std": 0.09092539547145072
+      },
+      "boundary_roughness": {
+        "mean": 7.610126688922787,
+        "std": 1.8946506224287054
+      },
+      "pd0_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_wasserstein": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd0_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "pd1_bottleneck": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "border_contact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "compactness": {
+        "mean": 0.09442852962542737,
+        "std": 0.01668258148568373
+      }
+    }
+  },
+  "image": {
+    "Baseline Latent DDPM": {
+      "nearest_real_l1": 0.46515507996082306,
+      "nearest_real_ssim": 0.3313244432210922,
+      "paired_batch_l1": 0.4755305349826813,
+      "paired_batch_ssim": 0.3340074419975281,
+      "lpips_to_real_batch": 0.5805218517780304,
+      "mask_contrast": 0.23727631568908691,
+      "real_mask_contrast": 0.8503237366676331,
+      "mask_contrast_abs_error": 0.6130474209785461,
+      "fid": 523.3925170898438,
+      "fid_error": null
+    },
+    "Full CCLD": {
+      "nearest_real_l1": 0.5617555677890778,
+      "nearest_real_ssim": 0.16303695691749454,
+      "paired_batch_l1": 0.5698846578598022,
+      "paired_batch_ssim": 0.13926666975021362,
+      "lpips_to_real_batch": 0.601414144039154,
+      "mask_contrast": 0.33014118671417236,
+      "real_mask_contrast": 0.8503237366676331,
+      "mask_contrast_abs_error": 0.5201825499534607,
+      "fid": 442.93353271484375,
+      "fid_error": null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Baseline Latent DDPM": {
+    "nearest_real_l1": 0.17798300181311788,
+    "nearest_real_ssim": 0.8616489928681403,
+    "paired_batch_l1": 0.39297398924827576,
+    "paired_batch_ssim": 0.538219690322876,
+    "lpips_to_real_batch": 0.48504213683190756,
+    "mask_contrast": 0.367864727973938,
+    "real_mask_contrast": 0.6793318390846252,
+    "mask_contrast_abs_error": 0.31146711111068726,
+    "fid": 53.19130325317383,
+    "fid_error": null
+  },
+  "Curvature Only": {
+    "nearest_real_l1": 0.17366698701516725,
+    "nearest_real_ssim": 0.8611483487766236,
+    "paired_batch_l1": 0.37969160079956055,
+    "paired_batch_ssim": 0.5514954924583435,
+    "lpips_to_real_batch": 0.4827537122182548,
+    "mask_contrast": 0.2723420560359955,
+    "real_mask_contrast": 0.6793318390846252,
+    "mask_contrast_abs_error": 0.40698978304862976,
+    "fid": 65.5243911743164,
+    "fid_error": null
+  },
+  "Topology Only": {
+    "nearest_real_l1": 0.19135185751656536,
+    "nearest_real_ssim": 0.836680407403037,
+    "paired_batch_l1": 0.38714393973350525,
+    "paired_batch_ssim": 0.5393040180206299,
+    "lpips_to_real_batch": 0.48751263646408916,
+    "mask_contrast": 0.3481296896934509,
+    "real_mask_contrast": 0.6793318390846252,
+    "mask_contrast_abs_error": 0.3312021493911743,
+    "fid": 70.59104919433594,
+    "fid_error": null
+  },
+  "Full CCLD": {
+    "nearest_real_l1": 0.1896441185817821,
+    "nearest_real_ssim": 0.8433836828917265,
+    "paired_batch_l1": 0.38774266839027405,
+    "paired_batch_ssim": 0.544996440410614,
+    "lpips_to_real_batch": 0.48808407923206687,
+    "mask_contrast": 0.3358635902404785,
+    "real_mask_contrast": 0.6793318390846252,
+    "mask_contrast_abs_error": 0.34346824884414673,
+    "fid": 72.28010559082031,
+    "fid_error": null
+  }
+}

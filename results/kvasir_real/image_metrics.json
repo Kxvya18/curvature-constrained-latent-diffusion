@@ -1,0 +1,30 @@
+{
+  "Baseline Latent DDPM": {
+    "l1_to_real_batch": 0.31566867232322693,
+    "ssim_to_real_batch": 0.647159993648529,
+    "lpips_to_real_batch": 0.5872821658849716,
+    "fid": 45.79595947265625,
+    "fid_error": null
+  },
+  "Curvature Only": {
+    "l1_to_real_batch": 0.3132433593273163,
+    "ssim_to_real_batch": 0.6496543884277344,
+    "lpips_to_real_batch": 0.5828865417279303,
+    "fid": 64.92417907714844,
+    "fid_error": null
+  },
+  "Topology Only": {
+    "l1_to_real_batch": 0.3137732744216919,
+    "ssim_to_real_batch": 0.6505768895149231,
+    "lpips_to_real_batch": 0.5895168399438262,
+    "fid": 129.5966339111328,
+    "fid_error": null
+  },
+  "Full CCLD": {
+    "l1_to_real_batch": 0.31333571672439575,
+    "ssim_to_real_batch": 0.6494274139404297,
+    "lpips_to_real_batch": 0.589468440040946,
+    "fid": 161.67904663085938,
+    "fid_error": null
+  }
+}

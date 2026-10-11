@@ -1,0 +1,9 @@
+numpy>=1.24
+Pillow>=10.0
+torch>=2.2
+torchvision>=0.17
+tqdm>=4.66
+gudhi>=3.9
+POT>=0.9
+lpips>=0.1.4
+matplotlib>=3.8

@@ -1,0 +1,40 @@
+{
+  "mask_autoencoder": [
+    {
+      "epoch": 1,
+      "loss": 0.12797304717495162
+    }
+  ],
+  "image_autoencoder": [
+    {
+      "epoch": 1,
+      "loss": 0.207233610328506,
+      "ssim": 0.9056525572959114
+    }
+  ],
+  "conditional_image_diffusion": [
+    {
+      "epoch": 1,
+      "loss": 1.018351876034456
+    }
+  ],
+  "mask_conditioned_renderer": [
+    {
+      "epoch": 1,
+      "loss": 0.4346038683723001,
+      "ssim": 0.6502912601828575
+    }
+  ],
+  "mask_diffusion_Baseline Latent DDPM": [
+    {
+      "epoch": 1,
+      "loss": 1.0151478095615611
+    }
+  ],
+  "mask_diffusion_Full CCLD": [
+    {
+      "epoch": 1,
+      "loss": 1.037088550679824
+    }
+  ]
+}
